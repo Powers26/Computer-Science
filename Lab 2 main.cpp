@@ -19,13 +19,8 @@ Tells user the volume and surface area of their cylinder.
 int main()
 {
     std::cout << "Lets make a cylinder!" << std::endl;
-    std::cout << "(Use no units of measurment, just numbers!)" << std::endl;
-    std::cout << "Enter a Height: " << std::endl;
-    float height;
-    std::cin >> height;
-    std::cout << "Enter a Radius: " << std::endl;
-    float radius;
-    std::cin >> radius;
+    float height = 3;
+    float radius = 4;
     std::cout << "A cylinder with a Height of " << height << " and a Radius of " << radius << " has a Volume of " << findVolume(height, radius) << " and a Surface Area of " << findSurfaceArea(height, radius) <<std::endl;
     return 0;
 }
