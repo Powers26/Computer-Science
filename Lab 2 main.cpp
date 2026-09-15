@@ -1,6 +1,6 @@
 /* 
 Lium Powers, Computer Science Lab 2, 09/03/2026.
-This program allows the user to input parameters of a cylinder and finds th volume and surface are of that cylinder.
+This program finds the volume and surface are of a cylinder.
 */
 
 #include <iostream>
@@ -12,9 +12,8 @@ float findVolume(float height, float radius);
 float findSurfaceArea(float height, float radius);
 
 /*
-Main Function takes input for cylinder height and radius.
-Uses subfunctions to calculate volume and surface area.
-Tells user the volume and surface area of their cylinder.
+Main Function uses subfunctions to calculate volume and surface area.
+Tells user the volume and surface area of the cylinder with a height of 3 and raduis of 4.
 */
 int main()
 {
