@@ -1,6 +1,6 @@
 /* 
-Lium Powers, Computer Science Lab 2, 09/03/2026.
-This program finds the volume and surface are of a cylinder.
+Lium Powers, Computer Science Lab 2, 09/15/2026.
+This program finds the volume and surface area of a cylinder.
 */
 
 #include <iostream>
